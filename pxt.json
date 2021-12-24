@@ -3,13 +3,16 @@
     "description": "",
     "dependencies": {
         "device": "*",
-        "robotbit": "github:KittenBot/meow-robotbit#v0.3.3"
+        "robotbit": "github:KittenBot/meow-robotbit#v0.3.3",
+        "edge-connector": "*"
     },
     "files": [
         "main.blocks",
         "main.ts",
         "README.md",
-        "assets.json"
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
     ],
     "testFiles": [
         "test.ts"
